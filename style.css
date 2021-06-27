@@ -1,0 +1,199 @@
+
+/* CSS ANIMATION KEYFRAMES */
+
+
+@keyframes glowing {
+        0% {
+          box-shadow: 0 0 5px #fb644a;
+        }
+        50% {
+          box-shadow: 0 0 20px red;
+        }
+        100% {
+          box-shadow: 0 0 5px #fb644a;
+        }
+      }
+
+
+/* MAIN CSS */
+
+
+body{
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Overpass';
+    font-size: 20px;
+}
+
+#topSection{
+	width: 100%; 
+	margin: auto; 
+	text-align: center;
+	font-weight:600;
+	padding: 0px;
+}
+
+#bottomSection{
+	width: 100%;
+	margin:auto;
+	background-image: linear-gradient(165deg, #fb644a, #ff912c);
+	display: block;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#bigPic{
+	width: 50%;
+	padding: 0px;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+/*Nate will never see this*/
+
+.logo{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.ragRight{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+	font-weight: 400;
+	text-align: left;
+}
+
+.header{
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 30px;
+}
+
+.copy{
+	padding-top: 10px;
+}
+
+.foundersBox{
+	float: left; 
+	padding: 20px; 
+	text-align: center;
+}
+
+.founderPic{
+	border-radius: 100px;
+	width:130px;
+	height: 130px;
+	-o-object-fit:cover;
+	object-fit:cover;
+}
+
+.tapButton{
+	border-radius: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-size: 30px;
+	font-weight: 600;
+	padding:10px 20px 10px 20px;
+	animation: glowing 1300ms infinite;
+
+}
+
+.whiteButton{
+	border-color: white;
+	color: #fb644a;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.redButton{
+	background-color: #fb644a;
+	border-color: #fb644a;
+	color: white;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+	#bigPic{
+		width: 100%;
+	}
+	.ragRight{
+		width: 90%;
+	}
+	.header{
+		font-size: 30px;
+		padding-top: 60px;
+	}
+	.founderPic{
+	width:200px;
+	height: 200px;
+	padding:20px;
+	border-radius: 200px;
+}
+.logo{
+	margin-top: 120px;
+}
+.tapButton{
+	border-radius: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	padding:20px 40px 20px 40px;
+}
+.founderName{
+	font-size: 40px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  		#bigPic{
+		width: 100%;
+	}
+	.ragRight{
+		width: 90%;
+	}
+	.header{
+		font-size: 30px;
+		padding-top: 60px;
+	}
+	.founderPic{
+	width:200px;
+	height: 200px;
+	padding:20px;
+	border-radius: 200px;
+}
+.logo{
+	margin-top: 120px;
+}
+.tapButton{
+	border-radius: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	padding:20px 40px 20px 40px;
+}
+.founderName{
+	font-size: 40px;
+}
+
+}
