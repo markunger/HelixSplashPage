@@ -124,6 +124,9 @@ body{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
+	body{
+		font-size: 60px;
+	}
 	#bigPic{
 		width: 100%;
 	}
