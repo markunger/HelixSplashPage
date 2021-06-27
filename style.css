@@ -23,7 +23,7 @@ body{
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Overpass';
+	font-family: 'Overpass', sans-serif;
     font-size: 20px;
 }
 
@@ -140,9 +140,7 @@ body{
 	padding:20px;
 	border-radius: 200px;
 }
-.logo{
-	margin-top: 120px;
-}
+
 .tapButton{
 	border-radius: 100px;
 	margin-right: auto;
@@ -179,9 +177,7 @@ body{
 	padding:20px;
 	border-radius: 200px;
 }
-.logo{
-	margin-top: 120px;
-}
+
 .tapButton{
 	border-radius: 100px;
 	margin-right: auto;
