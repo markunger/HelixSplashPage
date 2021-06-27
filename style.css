@@ -119,10 +119,19 @@ body{
 	color: white;
 }
 
+
+
+
+/* MEDIA PHONE SIZE PARTY */
+
+
+/* ----------- iPhone 12 & 12Pro ----------- */
+
+
 @media only screen 
-  and (min-device-width: 390px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
 
 	body{
 		font-size: 50px;
@@ -159,6 +168,49 @@ body{
 }
 }
 
+/* ----------- iPhone 12 Mini ----------- */
+
+/* 2340x1080 pixels at 476ppi */
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+body{
+		font-size: 50px;
+	}
+	#bigPic{
+		width: 100%;
+	}
+	.ragRight{
+		width: 90%;
+	}
+	.header{
+		font-size: 70px;
+		padding-top: 60px;
+	}
+	.founderPic{
+	width:200px;
+	height: 200px;
+	padding:20px;
+	border-radius: 200px;
+}
+
+.tapButton{
+	border-radius: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	padding:20px 40px 20px 40px;
+}
+.founderName{
+	font-size: 40px;
+}
+    }
+
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
@@ -168,6 +220,94 @@ body{
   and (-webkit-min-device-pixel-ratio: 3) { 
 
   		body{
+		font-size: 50px;
+	}
+	#bigPic{
+		width: 100%;
+	}
+	.ragRight{
+		width: 90%;
+	}
+	.header{
+		font-size: 70px;
+		padding-top: 60px;
+	}
+	.founderPic{
+	width:200px;
+	height: 200px;
+	padding:20px;
+	border-radius: 200px;
+}
+
+.tapButton{
+	border-radius: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	padding:20px 40px 20px 40px;
+}
+.founderName{
+	font-size: 40px;
+}
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  		body{
+		font-size: 30px;
+	}
+	#bigPic{
+		width: 100%;
+	}
+	.ragRight{
+		width: 90%;
+	}
+	.header{
+		font-size: 50px;
+		padding-top: 60px;
+	}
+	.founderPic{
+	width:200px;
+	height: 200px;
+	padding:20px;
+	border-radius: 200px;
+}
+
+.tapButton{
+	border-radius: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	padding:20px 40px 20px 40px;
+}
+.founderName{
+	font-size: 40px;
+}
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	  		body{
 		font-size: 50px;
 	}
 	#bigPic{
