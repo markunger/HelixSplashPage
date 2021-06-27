@@ -108,6 +108,7 @@ body{
 
 .whiteButton{
 	border-color: white;
+	background-color: white;
 	color: #fb644a;
 	margin-top: 50px;
 	margin-bottom: 50px;
