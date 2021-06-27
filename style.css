@@ -125,7 +125,7 @@ body{
   and (-webkit-min-device-pixel-ratio: 3) { 
 
 	body{
-		font-size: 60px;
+		font-size: 50px;
 	}
 	#bigPic{
 		width: 100%;
@@ -134,7 +134,7 @@ body{
 		width: 90%;
 	}
 	.header{
-		font-size: 30px;
+		font-size: 70px;
 		padding-top: 60px;
 	}
 	.founderPic{
