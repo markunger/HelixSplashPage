@@ -75,6 +75,11 @@ body{
 	padding-top: 30px;
 }
 
+.introText{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 .copy{
 	padding-top: 10px;
 }
